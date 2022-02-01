@@ -1,0 +1,37 @@
+diff --git a/app/src/main/java/com/example/myapplication/MainActivity.kt b/app/src/main/java/com/example/myapplication/MainActivity.kt
+index cb5636a..3ff5cca 100644
+--- a/app/src/main/java/com/example/myapplication/MainActivity.kt
++++ b/app/src/main/java/com/example/myapplication/MainActivity.kt
+@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
+ 
+     private lateinit var appBarConfiguration: AppBarConfiguration
+     private lateinit var binding: ActivityMainBinding
+-//commit1
++
+     override fun onCreate(savedInstanceState: Bundle?) {
+         super.onCreate(savedInstanceState)
+ 
+diff --git a/app/src/main/res/layout/activity_main.xml b/app/src/main/res/layout/activity_main.xml
+index c534ef2..07f9675 100644
+--- a/app/src/main/res/layout/activity_main.xml
++++ b/app/src/main/res/layout/activity_main.xml
+@@ -21,18 +21,7 @@
+     </com.google.android.material.appbar.AppBarLayout>
+ 
+     <include layout="@layout/content_main" />
+-    <TextView
+-        android:layout_height="wrap_content"
+-        android:layout_width="wrap_content"
+-        android:text="commit2"
+-        android:textSize="20dp">
+-    </TextView>
+-    <TextView
+-        android:layout_height="wrap_content"
+-        android:layout_width="wrap_content"
+-        android:text="commit3"
+-        android:textSize="20dp">
+-    </TextView>
++
+     <com.google.android.material.floatingactionbutton.FloatingActionButton
+         android:id="@+id/fab"
+         android:layout_width="wrap_content"

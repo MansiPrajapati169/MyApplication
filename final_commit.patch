@@ -1,0 +1,17 @@
+Index: app/src/main/res/layout/activity_hello.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_hello.xml b/app/src/main/res/layout/activity_hello.xml
+--- a/app/src/main/res/layout/activity_hello.xml	(revision 4f3d68ce0b6fd69c6d32fd29ea1fbc30815986db)
++++ b/app/src/main/res/layout/activity_hello.xml	(revision 21068cc35f78098e94a23a772faf3816efa8efc3)
+@@ -8,7 +8,7 @@
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+-        android:text="hello123456789"
++        android:text="hello12345678"
+         android:textSize="50dp"
+         android:gravity="center">
+     </TextView>

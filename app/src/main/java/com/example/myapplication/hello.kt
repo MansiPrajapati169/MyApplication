@@ -9,6 +9,8 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.myapplication.databinding.ActivityHelloBinding
 //hello
+//world
+//app1
 class hello : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
