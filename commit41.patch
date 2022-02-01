@@ -1,0 +1,17 @@
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_main.xml b/app/src/main/res/layout/activity_main.xml
+--- a/app/src/main/res/layout/activity_main.xml	(revision 7219785548472f652cf89a0343c3709696c71599)
++++ b/app/src/main/res/layout/activity_main.xml	(revision ac200a1dbf9f9def27b14097f3bcea0e3e2a5231)
+@@ -30,7 +30,7 @@
+     <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+-        android:text="commit3"
++        android:text="committ3"
+         android:textSize="20dp">
+     </TextView>
+     <com.google.android.material.floatingactionbutton.FloatingActionButton
